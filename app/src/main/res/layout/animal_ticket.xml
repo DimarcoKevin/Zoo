@@ -17,15 +17,15 @@
             app:srcCompat="@drawable/baboon" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/txtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Baboon" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/txtDesc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys. There are five species of baboons, commonly known as hamadryas baboon, Guinea baboon, olive baboon, yellow baboon and chacma baboon." />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
