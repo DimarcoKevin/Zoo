@@ -2,30 +2,56 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="36dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imgAnimal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/baboon" />
 
         <TextView
             android:id="@+id/txtName"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Baboon" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:text="Baboon"
+            android:textColor="#000000"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/txtDesc"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys. There are five species of baboons, commonly known as hamadryas baboon, Guinea baboon, olive baboon, yellow baboon and chacma baboon." />
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys. There are five species of baboons, commonly known as hamadryas baboon, Guinea baboon, olive baboon, yellow baboon and chacma baboon."
+            android:textSize="18sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
