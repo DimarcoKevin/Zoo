@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
             android:background="@color/addButton"
+            android:onClick="clickAdd"
             android:text="Add Animal" />
 
         <LinearLayout
