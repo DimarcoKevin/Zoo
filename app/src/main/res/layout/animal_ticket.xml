@@ -11,6 +11,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/btnAddAnimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5pt"
+            android:background="@color/addButton"
+            android:text="Add Animal" />
+
         <LinearLayout
             android:id="@+id/llBaboon"
             android:layout_width="match_parent"

@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
             R.id.llSwallow -> setContentView(R.layout.swallow)
             R.id.llTiger -> setContentView(R.layout.tiger)
             R.id.llZebra -> setContentView(R.layout.zebra)
-
         }
     }
 
@@ -31,6 +30,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun clickDelete(view: View) {
+        // TODO : implement
+    }
+
+    fun clickAdd(view: View) {
         // TODO : implement
     }
 }
