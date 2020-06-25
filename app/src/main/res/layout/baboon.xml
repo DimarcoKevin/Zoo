@@ -22,13 +22,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imgAnimal"
+            android:id="@+id/imgBaboon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/baboon" />
 
         <TextView
-            android:id="@+id/txtName"
+            android:id="@+id/txtNameBaboon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -45,7 +45,7 @@
             android:textSize="30sp" />
 
         <TextView
-            android:id="@+id/txtDesc"
+            android:id="@+id/txtDescBaboon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal|center_vertical"
