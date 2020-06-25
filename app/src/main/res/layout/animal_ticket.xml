@@ -40,7 +40,7 @@
             android:paddingTop="8dp"
             android:paddingRight="8dp"
             android:paddingBottom="8dp"
-            android:text="Baboon"
+            android:text="@string/baboonName"
             android:textColor="#000000"
             android:textSize="30sp" />
 
@@ -51,7 +51,7 @@
             android:gravity="center_horizontal|center_vertical"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
-            android:text="Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys. There are five species of baboons, commonly known as hamadryas baboon, Guinea baboon, olive baboon, yellow baboon and chacma baboon."
+            android:text="@string/baboonDesc"
             android:textSize="18sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
