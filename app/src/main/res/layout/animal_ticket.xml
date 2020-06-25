@@ -17,6 +17,9 @@
             android:layout_margin="5pt"
             android:background="@drawable/border"
             android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickAnimal"
             android:orientation="horizontal"
             android:padding="5pt">
 
@@ -38,6 +41,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/baboonName"
                     android:textColor="#000000"
@@ -45,9 +49,11 @@
 
                 <TextView
                     android:id="@+id/txtDescBaboon"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="5pt"
                     android:text="@string/baboonShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -60,6 +66,9 @@
             android:layout_margin="5pt"
             android:background="@drawable/border"
             android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickAnimal"
             android:orientation="horizontal"
             android:padding="5pt">
 
@@ -81,6 +90,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/bulldogName"
                     android:textColor="#000000"
@@ -88,9 +98,11 @@
 
                 <TextView
                     android:id="@+id/txtDescBulldog"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="5pt"
                     android:text="@string/bulldogShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -103,6 +115,9 @@
             android:layout_margin="5pt"
             android:background="@drawable/border"
             android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickAnimal"
             android:orientation="horizontal"
             android:padding="5pt">
 
@@ -124,6 +139,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/pandaName"
                     android:textColor="#000000"
@@ -131,9 +147,11 @@
 
                 <TextView
                     android:id="@+id/txtDescPanda"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="5pt"
                     android:text="@string/pandaShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -146,6 +164,9 @@
             android:layout_margin="5pt"
             android:background="@drawable/border"
             android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickAnimal"
             android:orientation="horizontal"
             android:padding="5pt">
 
@@ -167,6 +188,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/swallowName"
                     android:textColor="#000000"
@@ -174,9 +196,11 @@
 
                 <TextView
                     android:id="@+id/txtDescSwallow"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="5pt"
                     android:text="@string/swallowShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -189,6 +213,9 @@
             android:layout_margin="5pt"
             android:background="@drawable/border"
             android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickAnimal"
             android:orientation="horizontal"
             android:padding="5pt">
 
@@ -210,6 +237,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/whiteTigerName"
                     android:textColor="#000000"
@@ -217,9 +245,11 @@
 
                 <TextView
                     android:id="@+id/txtDescTiger"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="5pt"
                     android:text="@string/whiteTigerShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
@@ -232,6 +262,9 @@
             android:layout_margin="5pt"
             android:background="@drawable/border"
             android:baselineAligned="false"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="clickAnimal"
             android:orientation="horizontal"
             android:padding="5pt">
 
@@ -253,6 +286,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/zebraName"
                     android:textColor="#000000"
@@ -260,9 +294,11 @@
 
                 <TextView
                     android:id="@+id/txtDesc"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clickable="false"
                     android:gravity="center_horizontal|center_vertical"
+                    android:paddingLeft="5pt"
                     android:text="@string/zebraShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
