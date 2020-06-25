@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Zoo</string>
+    <string name="add_animal">Add Animal</string>
+    <string name="delete_animal">Delete</string>
+    <string name="back">Back</string>
     <string name="baboonName">Baboon</string>
     <string name="baboonDesc">Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys. There are five species of baboons, commonly known as hamadryas baboon, Guinea baboon, olive baboon, yellow baboon and chacma baboon.</string>
     <string name="baboonShortDesc">A member of the primate family</string>
