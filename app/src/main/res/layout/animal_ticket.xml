@@ -3,7 +3,6 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -49,7 +48,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Animal found in the monkey family"
+                    android:text="@string/baboonShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -92,7 +91,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Animal found in the doggo family"
+                    android:text="@string/bulldogShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -135,7 +134,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Animal found in the bear family"
+                    android:text="@string/pandaShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -178,7 +177,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Animal found in the bird family"
+                    android:text="@string/swallowShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -221,7 +220,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Animal found in the tiger family"
+                    android:text="@string/whiteTigerShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
 
@@ -264,7 +263,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
-                    android:text="Animal found in the equino family"
+                    android:text="@string/zebraShortDesc"
                     android:textSize="18sp" />
             </LinearLayout>
 

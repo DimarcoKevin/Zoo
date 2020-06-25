@@ -2,14 +2,20 @@
     <string name="app_name">Zoo</string>
     <string name="baboonName">Baboon</string>
     <string name="baboonDesc">Baboons are primates comprising the genus Papio, one of the 23 genera of Old World monkeys. There are five species of baboons, commonly known as hamadryas baboon, Guinea baboon, olive baboon, yellow baboon and chacma baboon.</string>
+    <string name="baboonShortDesc">A member of the primate family</string>
     <string name="bulldogName">Bulldog</string>
     <string name="bulldogDesc">The Bulldog, also known as the British Bulldog or English Bulldog, is a medium-sized dog breed. It is a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose.</string>
+    <string name="bulldogShortDesc">A member of the dog family</string>
     <string name="pandaName">Panda</string>
     <string name="pandaDesc">The giant panda, also known as the panda bear or simply the panda, is a bear native to south central China. It is characterised by large, black patches around its eyes, over the ears, and across its round body.</string>
+    <string name="pandaShortDesc">A member of the bear family</string>
     <string name="swallowName">Swallow</string>
     <string name="swallowDesc">The swallows, martins, and saw-wings, or Hirundinidae, are a family of passerine birds found around the world on all continents, including occasionally in Antarctica. Highly adapted to aerial feeding, they have a distinctive appearance.</string>
+    <string name="swallowShortDesc">A member of the bird family</string>
     <string name="whiteTigerName">White Tiger</string>
     <string name="whiteTigerDesc">The white tiger or bleached tiger is a pigmentation variant of the Bengal tiger, which is reported in the wild from time to time in the Indian states of Madhya Pradesh, Assam, West Bengal, Bihar and Odisha in the Sunderbans region and especially in the former State of Rewa.</string>
+    <string name="whiteTigerShortDesc">A member of the large cat family</string>
     <string name="zebraName">Zebra</string>
     <string name="zebraDesc">Zebras are African equines with distinctive black-and-white striped coats. Their stripes come in different patterns unique to each individual.</string>
+    <string name="zebraShortDesc">A member of the equidae family</string>
 </resources>
