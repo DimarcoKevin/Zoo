@@ -12,6 +12,7 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/llBaboon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
@@ -61,6 +62,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/llBulldog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
@@ -110,6 +112,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/llPanda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
@@ -159,6 +162,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/llSwallow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
@@ -208,6 +212,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/llTiger"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
@@ -257,6 +262,7 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/llZebra"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5pt"
