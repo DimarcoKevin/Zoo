@@ -3,6 +3,8 @@ package com.dimarco.zoo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.LinearLayout
+import kotlinx.android.synthetic.main.animal_ticket.*
 import kotlinx.android.synthetic.main.animal_ticket.view.*
 
 class MainActivity : AppCompatActivity() {
@@ -30,10 +32,22 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun clickDelete(view: View) {
-        // TODO : implement
+        // TODO : fix this delete button, it deletes one and then when you delete another the first one returns
+        setContentView(R.layout.animal_ticket)
+        var ll = findViewById<LinearLayout>(R.id.ll)!!
+
+        when (view.id) {
+            R.id.btnDeleteBaboon -> ll.removeView(llBaboon)
+            R.id.btnDeleteBulldog  -> ll.removeView(llBulldog)
+            R.id.btnDeletePanda  -> ll.removeView(llPanda)
+            R.id.btnDeleteSwallow  -> ll.removeView(llSwallow)
+            R.id.btnDeleteTiger  -> ll.removeView(llTiger)
+            R.id.btnDeleteZebra  -> ll.removeView(llZebra)
+        }
+
     }
 
     fun clickAdd(view: View) {
-        // TODO : implement
+        setContentView(R.layout.add_animal)
     }
 }
