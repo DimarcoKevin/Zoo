@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.animal_ticket)
     }
 
+    // goes to the animal specific pages
     fun clickAnimal(view: View) {
         when (view.id) {
             R.id.llBaboon -> setContentView(R.layout.baboon)
@@ -22,5 +23,14 @@ class MainActivity : AppCompatActivity() {
             R.id.llZebra -> setContentView(R.layout.zebra)
 
         }
+    }
+
+    // goes back to list view of all animals
+    fun clickBack(view: View) {
+        setContentView(R.layout.animal_ticket)
+    }
+
+    fun clickDelete(view: View) {
+        // TODO : implement
     }
 }
