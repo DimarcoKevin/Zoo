@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     fun clickDelete(view: View) {
         // TODO : fix this delete button, it deletes one and then when you delete another the first one returns
         setContentView(R.layout.animal_ticket)
-        var ll = findViewById<LinearLayout>(R.id.ll)!!
+        val ll = findViewById<LinearLayout>(R.id.ll)!!
 
         when (view.id) {
             R.id.btnDeleteBaboon -> ll.removeView(llBaboon)
